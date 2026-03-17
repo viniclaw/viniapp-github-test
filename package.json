@@ -1,0 +1,10 @@
+{
+  "name": "viniapp-test",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "cd packages/nextjs && yarn build",
+    "vercel": "cd packages/nextjs && vercel"
+  },
+  "workspaces": ["packages/*"]
+}
